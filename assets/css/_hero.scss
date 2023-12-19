@@ -1,0 +1,21 @@
+.hero-title {
+    font-size: 40px;
+    letter-spacing: 22px;
+    line-height: 1;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 64px;
+        letter-spacing: 36px;
+    }
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    letter-spacing: 8px;
+    line-height: 1;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 24px;
+        letter-spacing: 9px;
+    }
+}

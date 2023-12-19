@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'Futura Std';
+    src: url('#{$font-path}/FuturaStd-Bold.woff2') format('woff2'),
+        url('#{$font-path}/FuturaStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?nw9si5')
+            format('truetype'),
+        url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?nw9si5')
+            format('woff'),
+        url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?nw9si5##{$icomoon-font-family}')
+            format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-attachment {
+    &:before {
+        content: $icon-attachment;
+    }
+}
+.icon-award {
+    &:before {
+        content: $icon-award;
+    }
+}
+.icon-book-open {
+    &:before {
+        content: $icon-book-open;
+    }
+}
+.icon-book {
+    &:before {
+        content: $icon-book;
+    }
+}
+.icon-calendar {
+    &:before {
+        content: $icon-calendar;
+    }
+}
+.icon-chart {
+    &:before {
+        content: $icon-chart;
+    }
+}
+.icon-chevron-down {
+    &:before {
+        content: $icon-chevron-down;
+    }
+}
+.icon-chevron-left {
+    &:before {
+        content: $icon-chevron-left;
+    }
+}
+.icon-chevron-right {
+    &:before {
+        content: $icon-chevron-right;
+    }
+}
+.icon-chevron-up {
+    &:before {
+        content: $icon-chevron-up;
+    }
+}
+.icon-coffee {
+    &:before {
+        content: $icon-coffee;
+    }
+}
+.icon-compass {
+    &:before {
+        content: $icon-compass;
+    }
+}
+.icon-consultancy {
+    &:before {
+        content: $icon-consultancy;
+    }
+}
+.icon-culture {
+    &:before {
+        content: $icon-culture;
+    }
+}
+.icon-departures {
+    &:before {
+        content: $icon-departures;
+    }
+}
+.icon-education {
+    &:before {
+        content: $icon-education;
+    }
+}
+.icon-energy {
+    &:before {
+        content: $icon-energy;
+    }
+}
+.icon-entertainment {
+    &:before {
+        content: $icon-entertainment;
+    }
+}
+.icon-facebook {
+    &:before {
+        content: $icon-facebook;
+    }
+}
+.icon-filter {
+    &:before {
+        content: $icon-filter;
+    }
+}
+.icon-geolocation {
+    &:before {
+        content: $icon-geolocation;
+    }
+}
+.icon-geology {
+    &:before {
+        content: $icon-geology;
+    }
+}
+.icon-health {
+    &:before {
+        content: $icon-health;
+    }
+}
+.icon-historic {
+    &:before {
+        content: $icon-historic;
+    }
+}
+.icon-housing {
+    &:before {
+        content: $icon-housing;
+    }
+}
+.icon-instagram {
+    &:before {
+        content: $icon-instagram;
+    }
+}
+.icon-link-solid {
+    &:before {
+        content: $icon-link-solid;
+    }
+}
+.icon-linkedin {
+    &:before {
+        content: $icon-linkedin;
+    }
+}
+.icon-magnet {
+    &:before {
+        content: $icon-magnet;
+    }
+}
+.icon-mail {
+    &:before {
+        content: $icon-mail;
+    }
+}
+.icon-map {
+    &:before {
+        content: $icon-map;
+    }
+}
+.icon-mission {
+    &:before {
+        content: $icon-mission;
+    }
+}
+.icon-money {
+    &:before {
+        content: $icon-money;
+    }
+}
+.icon-news {
+    &:before {
+        content: $icon-news;
+    }
+}
+.icon-next {
+    &:before {
+        content: $icon-next;
+    }
+}
+.icon-partners {
+    &:before {
+        content: $icon-partners;
+    }
+}
+.icon-pdf-alt {
+    &:before {
+        content: $icon-pdf-alt;
+    }
+}
+.icon-pdf {
+    &:before {
+        content: $icon-pdf;
+    }
+}
+.icon-person {
+    &:before {
+        content: $icon-person;
+    }
+}
+.icon-phone {
+    &:before {
+        content: $icon-phone;
+    }
+}
+.icon-pin {
+    &:before {
+        content: $icon-pin;
+    }
+}
+.icon-play-circle {
+    &:before {
+        content: $icon-play-circle;
+    }
+}
+.icon-question {
+    &:before {
+        content: $icon-question;
+    }
+}
+.icon-search {
+    &:before {
+        content: $icon-search;
+    }
+}
+.icon-settings {
+    &:before {
+        content: $icon-settings;
+    }
+}
+.icon-social {
+    &:before {
+        content: $icon-social;
+    }
+}
+.icon-sort-down {
+    &:before {
+        content: $icon-sort-down;
+    }
+}
+.icon-sort-up {
+    &:before {
+        content: $icon-sort-up;
+    }
+}
+.icon-sort {
+    &:before {
+        content: $icon-sort;
+    }
+}
+.icon-sports {
+    &:before {
+        content: $icon-sports;
+    }
+}
+.icon-star {
+    &:before {
+        content: $icon-star;
+    }
+}
+.icon-store {
+    &:before {
+        content: $icon-store;
+    }
+}
+.icon-sustainability {
+    &:before {
+        content: $icon-sustainability;
+    }
+}
+.icon-tech {
+    &:before {
+        content: $icon-tech;
+    }
+}
+.icon-transport {
+    &:before {
+        content: $icon-transport;
+    }
+}
+.icon-twitter {
+    &:before {
+        content: $icon-twitter;
+    }
+}
+.icon-view-horizontal {
+    &:before {
+        content: $icon-view-horizontal;
+    }
+}
+.icon-view-vertical {
+    &:before {
+        content: $icon-view-vertical;
+    }
+}
+.icon-vision {
+    &:before {
+        content: $icon-vision;
+    }
+}
+.icon-whatsapp {
+    &:before {
+        content: $icon-whatsapp;
+    }
+}
+.icon-worth {
+    &:before {
+        content: $icon-worth;
+    }
+}
+.icon-zoom-in {
+    &:before {
+        content: $icon-zoom-in;
+    }
+}
+.icon-zoom-out {
+    &:before {
+        content: $icon-zoom-out;
+    }
+}
+
+body {
+    color: #454545;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.font-futura {
+    font-family: 'Futura Std';
+}
