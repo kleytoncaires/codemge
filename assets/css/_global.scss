@@ -19,8 +19,74 @@
     }
 }
 
+@mixin font-weights {
+    .font-100 {
+        font-weight: $font-thin;
+    }
+    .font-200 {
+        font-weight: $font-extra-light;
+    }
+    .font-300 {
+        font-weight: $font-light;
+    }
+    .font-400 {
+        font-weight: $font-regular;
+    }
+    .font-500 {
+        font-weight: $font-medium;
+    }
+    .font-600 {
+        font-weight: $font-semi-bold;
+    }
+    .font-700 {
+        font-weight: $font-bold;
+    }
+    .font-800 {
+        font-weight: $font-extra-bold;
+    }
+    .font-900 {
+        font-weight: $font-black;
+    }
+}
+
 @include generate-color-classes($color-gray-dark, 'gray-dark');
 @include generate-color-classes($color-gray, 'gray');
 @include generate-color-classes($color-red, 'red');
 @include generate-color-classes($white, 'white');
 @include generate-color-classes($black, 'black');
+
+.large-heading {
+    font-size: 40px;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.sub-heading {
+    font-size: 24px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
+.body-text {
+    font-size: 16px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.caption {
+    font-size: 13px;
+}
+
+.micro-text {
+    font-size: 12px;
+}
